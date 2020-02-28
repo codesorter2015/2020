@@ -1,0 +1,2 @@
+* JSON is currently the industry standard for sending data across the wire, but we can use alternatives like msgpack for handling binary data
+* 
