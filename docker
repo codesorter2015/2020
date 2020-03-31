@@ -8,3 +8,10 @@ docker images -t tm-app:latest .
 docker run -it tm-app:latest
 
 docker ps
+
+docker ps -a
+
+docker run -it -p 9002:9005 tm-app:latest
+
+docker images
+
