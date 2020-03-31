@@ -1,1 +1,8 @@
 docker build -t <imageName:version> dockerFilePath
+Ex: docker build -t tm-app:latest . 
+. means inside this folder
+
+update:
+docker images -t tm-app:latest .
+
+docker run -it tm-app:latest
