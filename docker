@@ -6,3 +6,5 @@ update:
 docker images -t tm-app:latest .
 
 docker run -it tm-app:latest
+
+docker ps
