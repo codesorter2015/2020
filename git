@@ -1,0 +1,32 @@
+git config --global user.name "your_username"
+git config --global user.email "your_email"
+git init
+//Add the files to staging area
+git add .
+git add index.js
+//show the state of the working directory
+git status
+//commit the changes into the repository
+git commit -m "first commit"
+//to download a remote repository
+git clone <repository url>
+//to grab changes from a remote repository
+git pull
+//to submit your changes to remote repository
+git push
+//push an existing repository
+git remote add origin master <repository url>
+git push -u origin master
+//to list all branches
+git branch
+//to create a new branch
+git branch <branch name>
+//to change the control to new branch
+git checkout <branch name>
+//merge two branches together
+git merge <branch name>
+
+outreachy.org
+summerofcode.withgoogle.com
+
+
