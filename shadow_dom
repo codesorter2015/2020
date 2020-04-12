@@ -1,0 +1,17 @@
+shadow_dom - dom tree 
+Ex: 
+<div id="componentOne"></div>
+<div id="componentTwo"></div>
+
+const componentOne = document.getElementById('componentOne');
+const componentTwo = document.getElementById('componentTwo');
+const componentOneShadowRoot = componentOne.attachShadow({mode:'open'});
+
+const componentOnePara = document.createElement('p');
+const componentTwoPara = document.createElement('p');
+
+componentOnePara.innerHTML = 'paragraph one';
+componentTwoPara.innerHTML = 'paragraph two';
+
+componentOne.appendChild(componentOnePara);
+componentTwo.appendChild(componentTwoPara);
